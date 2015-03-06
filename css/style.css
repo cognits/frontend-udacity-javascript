@@ -1,0 +1,84 @@
+/* FEATURES NAME */
+.name {
+	font-family: arial, sans-serif;
+	color:#FFBF00;
+	font-size: 40px;
+	font-weight: bold;
+	margin-left: 10px; 
+}
+/* FEATURES JOB */
+.job {
+	font-family: arial, sans-serif;
+	color: #000;
+}
+/* FIRST BOX OF INFORMATION PRIMARY */
+.box {
+	background-color: #424242;
+	color: #fff;
+	height: 375px;
+}
+/* SECOND BOX OF INFORMATION */
+.boxColor {
+	background-color: #D8D8D8;
+	color: #fff;
+	height: 250px;
+}
+/* SIZE IMAGE */
+.image {
+	width: 200px; 
+	height: 200px;
+}
+/* FEAUTURES OF THE TITLE */
+.TitleSkill {
+	font-family: arial, sans-serif;
+	color: #FFBF00;
+	font-weight: bold;
+	margin-left: 30px;
+}
+/* FEAUTURES OF THE PARAGRAPHS */
+.ListKills {
+	margin-left: 30px;
+}
+/* NAVBAR OF CARACTERISTICS */
+.Datainfo {
+	font-family: arial, sans-serif;
+	color: #FFBF00;
+	margin-left: 10px; 
+}
+/* TITLE SECOND BOX */
+h2 {
+	font-family: arial, sans-serif;
+	color: #585858;
+	margin-left: 10px; 
+}
+/* SUBTITLE SECOND BOX */
+.subTitle {
+	font-family: arial, sans-serif;
+	color: #0040FF;
+	margin-left: 10px; 
+}
+/* INFORMATION OF THE SECOND BOX */
+.information {
+	font-family: arial, sans-serif;
+	color: #000;
+	margin-left: 10px; 
+}
+/* INFORMATION TWO OF THE SECOND BOX */
+.secondInfo {
+	font-family: arial, sans-serif;
+	color: #000;
+	margin-left: 10px; 
+}
+/* INFORMATION OF THE PROYECTS */
+.proyects {
+	font-family: arial, sans-serif;
+	color: #000;
+	margin-left: 10px; 
+
+}
+
+
+
+
+
+
