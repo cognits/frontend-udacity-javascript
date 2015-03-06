@@ -1,0 +1,49 @@
+body
+{
+	background-color:#484848;
+}
+/*************titulo*********************/
+.name
+{
+	color:#D2AD28;
+	font-size:35px;
+	
+
+}
+.job
+{
+	color:black;
+
+}
+
+/*************DATOS*****************/
+.tituloDatos
+{
+	color:#d2ad28;
+	font-size:10px;
+}
+.datos
+{
+	color:white;
+	font-size:10px;
+}
+/*************IMAGEN****************/
+.imagen
+{
+	border:double;
+}
+/**********DESCRIPTION**************/
+.description
+{
+	color:white;
+}
+.tituloSkills
+{
+	color:#d2ad28;
+	font-size:20px;
+	margin-top:10px;
+}
+.skills
+{
+	color:white;
+}
