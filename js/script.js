@@ -1,17 +1,17 @@
 var data ={};
 data.name="Erick González";
-data.job="Web Developer";
+data.job="DESIGNER WEB";
 data.mobile="3262-2228";
 data.email="betto793@gmail.com";
-data.github="BettoGC";
+data.github="https://github.com/Bettogc?tab=repositories";
 data.location="Villa Nueva, Guatemala";
-data.information="I have the knowledge and experience in web development, front-end, and the learned languages are Html, Css, JavaScript, AnguarJS, Bootstrap, etc.";
-data.secondInfo="We learned how to develop Web pages's, also to how to develop us as people, taught us to fight for our dreams and to fulfill our goals and that we have to be able to learn, sabrena tools to be able to play in the field of programming, always working as a team and helping each other and taught us to learn from our mistakes and not to give up.";
-data.proyects="Frontend-AngularJS-Lastfm, Frontend-Pokedex-Parse, Frontend-Music, Frontend-Jasmine, Frontend-Weather-Forecast, Frontend-Blog, Frontend-Portafolio, Python-Batalla-Naval, Python-Guess-Number, Python-Maquina-Registradora, Python-Factorial, Python-Search-Engine, Python-Paises-Capitales.";
-data.skills="Respect";
-data.skills1="Responsibility";
-data.skills2="Punctuality";
-data.skills3="Fellowship";
+data.information="I have experience in the field HTML5, CSS3, JavaScript, Bootstrap, AngularJS, JQuery and Python.";
+data.secondInfo="I have learned many things related to the field of Development and Design WEB...";
+data.proyects="Frontend-udacity-html-css, Frontend-udacity-javascript, Frontend-pokedex-parse, Frontend-angularjs-lasfm, Frontend-jasmine, Frontend-music, Frontend-weather-forecast, Frontend-blog, Frontend-portfolio, Python-guess-number, Python-maquina-registradora, Python-search-engine, Python-batalla-naval, Python-paises-capitales and Python-factorial.";
+data.skills="I'm Punctual.";
+data.skills1="I'm Responsible.";
+data.skills2="I'm Honored";
+data.skills3="I'm Friendly";
 /*************** PRINT DATA NAME **************************/
 MyName= document.getElementById('name');
 MyName.innerHTML = data.name;

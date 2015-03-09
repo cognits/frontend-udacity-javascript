@@ -1,78 +1,101 @@
-/* FEATURES NAME */
+/* Espaciado del Cuerpo */
+body{
+	padding-left: 4%;
+	padding-right: 4%;
+}
+
+/* Centrado de información email, github, tel, location */
+.informacion{
+	text-align: center;
+}
+
+/* Caracteristicas del Nombre */
 .name {
-	font-family: arial, sans-serif;
+	font-family: arial, sans-serif, serif;
 	color:#FFBF00;
 	font-size: 40px;
 	font-weight: bold;
-	margin-left: 10px; 
+	text-shadow: 1px 1px 30px white;
 }
-/* FEATURES JOB */
+
+/* Caracteristicas del Job */
 .job {
-	font-family: arial, sans-serif;
+	font-family: arial, sans-serif, serif;
+	font-size: 2em;
 	color: #000;
+	float: right;
+	text-shadow: 1px 1px 5px white;
 }
-/* FIRST BOX OF INFORMATION PRIMARY */
+
+/* Contendor de la Información Principal tiene color de fondo y color de fuente */
 .box {
 	background-color: #424242;
 	color: #fff;
-	height: 375px;
 }
-/* SECOND BOX OF INFORMATION */
-.boxColor {
-	background-color: #D8D8D8;
-	color: #fff;
-	height: 250px;
-}
-/* SIZE IMAGE */
-.image {
-	width: 200px; 
-	height: 200px;
-}
-/* FEAUTURES OF THE TITLE */
-.TitleSkill {
-	font-family: arial, sans-serif;
+
+/* Propiedades para E-mail, GitHub, Tel y Localizacion */
+.Datainfo {
+	font-family: arial, sans-serif, serif;
 	color: #FFBF00;
 	font-weight: bold;
-	margin-left: 30px;
 }
-/* FEAUTURES OF THE PARAGRAPHS */
-.ListKills {
-	margin-left: 30px;
-}
-/* NAVBAR OF CARACTERISTICS */
-.Datainfo {
-	font-family: arial, sans-serif;
-	color: #FFBF00;
-	margin-left: 10px; 
-}
-/* TITLE SECOND BOX */
-h2 {
-	font-family: arial, sans-serif;
-	color: #585858;
-	margin-left: 10px; 
-}
-/* SUBTITLE SECOND BOX */
-.subTitle {
-	font-family: arial, sans-serif;
-	color: #0040FF;
-	margin-left: 10px; 
-}
-/* INFORMATION OF THE SECOND BOX */
-.information {
-	font-family: arial, sans-serif;
-	color: #000;
-	margin-left: 10px; 
-}
-/* INFORMATION TWO OF THE SECOND BOX */
-.secondInfo {
-	font-family: arial, sans-serif;
-	color: #000;
-	margin-left: 10px; 
-}
-/* INFORMATION OF THE PROYECTS */
-.proyects {
-	font-family: arial, sans-serif;
-	color: #000;
-	margin-left: 10px; 
 
+/* Titulo de Lista (Propiedades) */
+.TitleSkill {
+	font-family: arial, sans-serif, serif;
+	color: #FFBF00;
+	font-weight: bold;
+}
+/* Interlineado para lista de habilidades */
+.ListKills {
+	line-height: 175%;
+}
+
+/* Contenedor de la Segunda Informacion (Experiencia Laboral) */
+.boxColor {
+	font-family: sans-serif, serif;
+	background-color: #D8D8D8;
+	color: #fff;
+	line-height: 150%;
+	text-align: justify;
+}
+
+/* Tamaño de la Imagen*/
+.image {
+	width: 100%;
+}
+
+/* Subtitulos (Work Experience y Proyects GitHub) */
+h2 {
+	font-family: arial, sans-serif, serif;
+	color: #585858;
+	margin-left: 1%; 
+}
+
+/* SUBTITLE SECOND BOX */
+.subtitulo {
+	font-family: arial, sans-serif, serif;
+	color: #1470ed;
+	margin-left: 1%;; 
+}
+/* Caracteristicas de Información Cognits Training*/
+.information {
+	font-family: arial, sans-serif, serif;
+	color: #000;
+	margin-left: 3%;
+}
+
+/* Caracteristicas de Información Cognits Experience */
+.secondInfo {
+	font-family: arial, sans-serif, serif;
+	color: #000;
+	margin-left: 3%; 
+}
+
+/* Información de Proyectos GITHUB */
+.proyects {
+	font-family: arial, sans-serif, serif;
+	margin-left: 3%;
+	line-height: 200%;
+	text-align: justify;
 }
