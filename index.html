@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<!-- Lenguaje de la Pagina -->
+<html lang="es-ES">
+	<head>
+		<meta charset="UTF-8">
+		<!-- ****************************************** Icono de la Pagina *************************************-->
+		<link rel="icon" href="http://fc06.deviantart.net/fs5/i/2004/286/4/b/Fry_From_Futurama_by_HeadFlamage.png">
+		<!-- *************************************** Llamado del Bootstrap *************************************-->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+		<!--**************************************** Llamado del CSS ************************************-->
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<!--*** Titulo de la Pagina ***-->
+		<title>Udacity-JavaScript</title>
+	</head>
+	<body>
+			<!-- Contenedor para información principal Nombre, email, GitHub, Tel, Localizacion -->
+			<div class="col-md-12 box">
+				<br>
+				<span id="name" class="name"></span>
+				<span id="job" class="job"></span>
+				<hr>
+				<div class="row">
+					<div class="col-md-12 informacion">
+						<div class="col-md-3">
+							<span class="Datainfo">E-mail:</span> <span id="email" class="data"></span> 
+						</div>
+						<div class="col-md-4">
+							<span class="Datainfo">GitHub:</span> <span id="github" class="data"></span> 
+						</div>
+						<div class="col-md-2">
+							<span class="Datainfo">Mobile:</span> <span id="mobile" class="data"></span> 
+						</div>
+						<div class="col-md-3">
+							<span class="Datainfo">Location:</span> <span id="location" class="data"></span> 
+						</div>
+						<br/>
+					</div>
+				</div>
+				<!-- Contenedores a los que pertenecen la imagen de la biografia y un listado de cualidades -->
+				<div class="row">
+					<div class="col-md-2">
+						<br>
+						<img class="image" src="http://oyster.ignimgs.com/mediawiki/apis.ign.com/futurama/1/11/Fry.jpg" alt="Picture"/>
+						<br><br>
+					</div>
+					<div class="col-md-9">
+						<div class="TitleSkill"><h3>Skills of Erick:</h3></div>
+						<div class="ListKills">
+							<ol>
+								<li class="skills" id="skills"></li>
+								<li class="skills" id="skills1"></li>
+								<li class="skills" id="skills2"></li>
+								<li class="skills" id="skills3"></li>
+							</ol>
+						</div>
+					</div>		
+				</div>
+		 	</div>
+		<!-- Fin del Contendedor de Información Principal -->
+		<!--***************************************** Contenedor del Work Experience ********************************-->
+			<div class="row">
+				<div class="col-md-12">
+					<div class="boxColor">
+						<h2>Work Experience:</h2>
+						<h4 class="subtitulo">Cognits Training</h4>
+						<div class="information" id="information"></div>
+						<br/>
+						<h4 class="subtitulo">Cognits Experience</h4>
+						<div class="secondInfo" id="secondInfo"></div>
+						<br>
+					</div>	
+				</div>
+			</div>
+		<!--******************************* Fin Contenedor del Work Experience ***************************-->
+			<div class="row">
+				<div class="col-md-12">
+					<h2>GitHub Proyects </h2>
+					<h4 class="subtitulo">List of Proyects</h4>
+					<div class="proyects" id="proyects"></div>
+					<br><br>
+				</div>
+			</div>
+		<!--**************************** Llamado del JavaScript Local ******************************-->
+		<script type="text/javascript" src="js/script.js"></script>
+		<!--**************************** LLamado del JavaScript de Bootstrap ***********************-->
+		<script src="js/bootstrap.min.js"></script>
+	</body>
+</html>
