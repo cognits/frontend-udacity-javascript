@@ -1,4 +1,7 @@
+/* Diccionario donde se almacenará la información personal */
 var data ={};
+
+/* Información General */
 data.name="Erick González";
 data.job="DESIGNER WEB";
 data.mobile="3262-2228";
@@ -12,42 +15,56 @@ data.skills="I'm Punctual.";
 data.skills1="I'm Responsible.";
 data.skills2="I'm Honored";
 data.skills3="I'm Friendly";
-/*************** PRINT DATA NAME **************************/
+
+
+/* Generación del ID para imprimir nombre */
 MyName= document.getElementById('name');
 MyName.innerHTML = data.name;
-/*************** PRINT DATA JOB ***********************/
+
+/* Generación del ID para imprimir trabajo */
 Job= document.getElementById('job');
 Job.innerHTML = data.job;
-/*************** PRINT DATA PHONE ************************/
+
+/* Generación del ID para imprimir el numero de telefono */
 Mobile= document.getElementById('mobile');
 Mobile.innerHTML = data.mobile;
-/*************** PRINT DATA E-MAIL ***************************/
+
+/* Generación del ID para imprimir el correo electronico */
 Email= document.getElementById('email');
 Email.innerHTML = data.email;
-/*************** PRINT DATA GITHUB **************************/
+
+/* Generación del ID para imprimir cuenta de GitHub */
 Github= document.getElementById('github');
 Github.innerHTML = data.github;
-/*************** PRINT DATA LOCATION ************************/
+
+/* Generación del ID para imprimir localidad */
 MyLocation= document.getElementById('location');
 MyLocation.innerHTML = data.location;
-/*************** PRINT DATA INFORMATION *********************/
+
+/* Generación del ID para imprimir Cognits Training */
 Description= document.getElementById('information');
 Description.innerHTML = data.information;
-/*************** PRINT DATA INFORMATION TWO *********************/
+
+/* Generación del ID para imprimir Cognits Experience */
 DescriptionTwo= document.getElementById('secondInfo');
 DescriptionTwo.innerHTML = data.secondInfo;
-/*************** PRINT DATA PROYECTS *********************/
+
+/* Generación del ID para imprimir Listado de Proyectos trabajados */
 ListProyects= document.getElementById('proyects');
 ListProyects.innerHTML = data.proyects;
-/*************** PRINT DATA SKILLS **********************/
+
+/* Generación del ID para imprimir 1er Cualidad */
 Skills= document.getElementById('skills');
 Skills.innerHTML = data.skills;
-/*************** PRINT DATA SKILLS1 **********************/
+
+/* Generación del ID para imprimir 2da Cualidad */
 Skills1= document.getElementById('skills1');
 Skills1.innerHTML = data.skills1;
-/*************** PRINT DATA SKILLS2 **********************/
+
+/* Generación del ID para imprimir 3era Cualidad */
 Skills2= document.getElementById('skills2');
 Skills2.innerHTML = data.skills2;
-/*************** PRINT DATA SKILLS3 **********************/
+
+/* Generación del ID para imprimir 4ta Cualidad */
 Skills3= document.getElementById('skills3');
 Skills3.innerHTML = data.skills3;
