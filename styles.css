@@ -1,0 +1,118 @@
+
+
+hr{
+	margin-top: -0.5%;
+}
+
+p{
+	text-align: justify;
+}
+
+h2{
+	font-weight: bold;
+}
+
+.jumbotron{
+    background-color:#424242;
+}
+
+
+#join_ {
+	font-family: arial;
+	display: inline-block;
+}
+
+#join2_{
+ 	display: inline-block;
+ }
+
+#hr_topic{
+	margin-top: -2%;
+}
+
+#skill{
+ 	font-weight: bold;
+ }
+
+#mobb1, #mobb2, #maill, #maill2, #gitt, #gitt2, #tweett, #tweett2, #locc, #locc2{
+ 	font-size: 12px;
+ 	font-family: arial;
+ 	font-weight: bold;	
+ 	display: inline-block;
+ }
+
+#mob1, #mob2, #mail, #mail2, #git, #git2, #tweet, #tweet2, #loc, #loc2{
+ 	font-size: 12px;
+ 	font-family: arial;
+ 	font-weight: bold;
+ 	display: inline-block;
+ }
+
+#carac{
+ 	font-size: 12px;
+ 	font-family: arial;
+ 	font-weight: bold;	
+ }
+
+
+ #foot_text{
+ 	text-align: center;
+ 	font-size: 18px;
+ 	font-weight: bold;
+ 	color: #8A8985;
+ 	padding-top: 0.5%;
+ 	padding-bottom: 0.5%;
+ }
+
+.naranja{
+	color: orange;
+}
+
+.negro{
+	color: black;
+}
+
+.blanco{
+	color: white;
+}
+
+.gris{
+color: #8A8985;
+}
+
+.celeste{
+	color: #0080FF;
+}
+
+.basic_style{
+	font-family: arial;
+	font-weight: bold;
+}
+
+.marg{
+	margin-top: -1%;
+}
+
+.lineblock{
+	display: inline;
+}
+
+.box_body{
+	background-color: #E6E6E6;
+	margin-top: -30px;
+}
+
+.box_body2{
+	background-color: #F2F2F2;
+}
+
+.fondo_footer{
+	background-color: #DAA30C;
+}
+
+.fondo_footer2{
+	margin-top: -1%;
+	background-color: #424242;
+	text-align: center;
+}
+
