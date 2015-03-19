@@ -7,4 +7,4 @@ Complete Udacity's course [Intro to Javascript basics](https://www.udacity.com/c
 - Make Pull-Request to Cognits
 
 ## You can visit my project here:
-http://mg1167.github.io/frontend-udacity-javascript
+http://mg1167.github.io/frontend-udacity-javascript 
